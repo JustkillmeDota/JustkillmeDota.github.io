@@ -78,7 +78,9 @@ padding: 0;
 	clear: both;
 }
 #slider-left {
-	position: relative;left: 900px;
 	border-radius: 200000px;
 	color: white;
+}
+#bce {
+	position: relative;text-align: center;
 }
