@@ -61,3 +61,14 @@ if (num2 == 0) {
 	alert('Деление на 0 невозможно!')
 }
 }
+document.getElementById('slider-left');
+var left = 0;
+
+function sliderLeft(){
+	var polosa = document.getElementById('polosa');
+	left = left - 128
+	if (left == -384) {
+		left = 0;
+	}
+	polosa.style.left = left+'px'
+}
