@@ -1,0 +1,84 @@
+#top {
+	padding: 5px
+}
+#hr1 {
+	height: 3px;
+	border: none;
+	background-color: black;
+}
+#div2 {
+	background-color: green;
+}
+#rez {
+	color: red;
+}
+#div3 {
+	background-color: gray;
+}
+#img {
+	width: 1040px;
+}
+button {
+	background-color: red;
+	height: 50px;
+	width: 120px;
+}
+#baton {
+	background-color: green;
+	color: white;
+	border-radius:10px;
+}
+.bo {
+	border-radius:40px;
+	color: white;
+}
+* { margin: 0;
+padding: 0;
+}
+#marg {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#nma {
+	margin-left:10px;
+	margin-right: 10px;
+}
+#div3 {
+	margin-top: 10px;
+}
+#kn {
+	position: relative;text-align: center;
+}
+#cen {
+	position: relative;text-align: center;
+}
+#h2 {
+	background: #ff66ff;
+}
+#slider {
+	width: 384px;
+	height: 128px;
+	border: 5px solid red;
+	margin: 50px auto;
+	overflow: hidden;
+}
+#polosa {
+	width: 896px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+
+}
+#polosa img {
+	float: left;
+}
+#polosa:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#slider-left {
+	position: relative;left: 900px;
+	border-radius: 200000px;
+	color: white;
+}
