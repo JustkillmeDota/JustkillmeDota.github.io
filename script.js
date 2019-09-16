@@ -83,3 +83,18 @@ function sliderRight(){
 	}
 	polosa.style.left = right+'px'
 }
+function findage(){
+
+imp = document.getElementById("input").value;
+imp = parseInt(imp);
+
+if (imp < 18 && imp == 0) {
+	alert("Пройти нельзя. Вход с восемнадцати лет!")
+}
+if (imp >= 18) {
+	alert("Пройти можно.")
+}
+if (imp == -123456789987654321){
+	alert('Нестеров Пидрила тупая!')
+}
+}
