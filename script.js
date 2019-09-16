@@ -72,3 +72,14 @@ function sliderLeft(){
 	}
 	polosa.style.left = left+'px'
 }
+
+document.getElementById('slider-right');
+var right = 0;
+
+function sliderRight(){
+	right = right + 128
+	if (right == 128) {
+		right = 0;
+	}
+	polosa.style.left = right+'px'
+}
