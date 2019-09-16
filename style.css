@@ -89,3 +89,6 @@ padding: 0;
 #slider-right {
 	border-radius: 200000px;
 	color: white;
+	height: 50px;
+	width: 120px;
+}
