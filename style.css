@@ -92,3 +92,13 @@ padding: 0;
 	height: 50px;
 	width: 120px;
 }
+#obut {
+	background-color: green;
+	color: white;
+	height: 40px;
+	width: 100px;
+	border-radius: 200000px;
+}
+#age {
+	position: relative;text-align: center;
+}
