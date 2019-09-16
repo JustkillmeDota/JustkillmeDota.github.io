@@ -88,7 +88,7 @@ function findage(){
 imp = document.getElementById("input").value;
 imp = parseInt(imp);
 
-if (imp < 18 && imp == 0) {
+if (imp < 18) {
 	alert("Пройти нельзя. Вход с восемнадцати лет!")
 }
 if (imp >= 18) {
