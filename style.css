@@ -31,6 +31,8 @@ button {
 .bo {
 	border-radius:40px;
 	color: white;
+	height: 50px;
+	width: 120px;
 }
 * { margin: 0;
 padding: 0;
@@ -84,3 +86,6 @@ padding: 0;
 #bce {
 	position: relative;text-align: center;
 }
+#slider-right {
+	border-radius: 200000px;
+	color: white;
