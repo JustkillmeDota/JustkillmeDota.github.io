@@ -88,7 +88,7 @@ function findage(){
 imp = document.getElementById("input").value;
 imp = parseInt(imp);
 
-if (imp < 18) {
+if (imp < 18 && imp > 0) {
 	alert("Пройти нельзя. Вход с восемнадцати лет!")
 }
 if (imp >= 18) {
@@ -97,4 +97,56 @@ if (imp >= 18) {
 if (imp == -123456789987654321){
 	alert('Нестеров Пидрила тупая!')
 }
+}
+function calcul_two_plusa() {
+		var num5, num6, rezalt;
+
+		num5 = document.getElementById('n5').value;
+		num5 = parseInt(num5);
+
+		num6 = document.getElementById('n6').value;
+		num6 = parseInt(num6);
+		
+		rezalt = num5 + num6;
+
+		alert(rezalt);
+}
+function calcul_two_minusa() {
+		var num5, num6, rezalt;
+
+		num5 = document.getElementById('n5').value;
+		num5 = parseInt(num5);
+
+		num6 = document.getElementById('n6').value;
+		num6 = parseInt(num6);
+
+		rezalt = num5 - num6;
+
+		alert(rezalt);
+}
+function calcul_two_ymna() {
+		var num5, num6, rezalt;
+
+		num5 = document.getElementById('n5').value;
+		num5 = parseInt(num5);
+
+		num6 = document.getElementById('n6').value;
+		num6 = parseInt(num6);
+
+		rezalt = num5 * num6;
+
+		alert(rezalt);
+}
+function calcul_two_delita() {
+		var num5, num6, rezalt;
+
+		num5 = document.getElementById('n5').value;
+		num5 = parseInt(num5);
+
+		num6 = document.getElementById('n6').value;
+		num6 = parseInt(num6);
+
+		rezalt = num5 / num6;
+
+		alert(rezalt);
 }
