@@ -67,7 +67,7 @@ var left = 0;
 function sliderLeft(){
 	var polosa = document.getElementById('polosa');
 	left = left - 128
-	if (left == -384) {
+	if (left == -640) {
 		left = 0;
 	}
 	polosa.style.left = left+'px'
