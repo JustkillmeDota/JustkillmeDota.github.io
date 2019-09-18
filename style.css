@@ -1,5 +1,5 @@
 #top {
-	padding: 5px
+	padding: 0px
 }
 #hr1 {
 	height: 3px;
@@ -29,6 +29,7 @@ button {
 	border-radius:10px;
 }
 .bo {
+	background-image: url(backgrand2.jpg);
 	border-radius:40px;
 	color: white;
 	height: 50px;
@@ -46,7 +47,7 @@ padding: 0;
 	margin-right: 10px;
 }
 #div3 {
-	margin-top: 10px;
+	margin-top: 0px;
 }
 #kn {
 	position: relative;text-align: center;
@@ -101,4 +102,9 @@ padding: 0;
 }
 #age {
 	position: relative;text-align: center;
+}
+#samsite {
+	background-image: url(backgrand2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
