@@ -109,7 +109,7 @@ function calcul_two_plusa() {
 		
 		rezalt = num5 + num6;
 
-		alert(rezalt);
+		alert("результат: " + rezalt);
 }
 function calcul_two_minusa() {
 		var num5, num6, rezalt;
@@ -122,7 +122,7 @@ function calcul_two_minusa() {
 
 		rezalt = num5 - num6;
 
-		alert(rezalt);
+		alert("результат: " + rezalt);
 }
 function calcul_two_ymna() {
 		var num5, num6, rezalt;
@@ -135,7 +135,7 @@ function calcul_two_ymna() {
 
 		rezalt = num5 * num6;
 
-		alert(rezalt);
+		alert("результат: " + rezalt);
 }
 function calcul_two_delita() {
 		var num5, num6, rezalt;
@@ -148,5 +148,5 @@ function calcul_two_delita() {
 
 		rezalt = num5 / num6;
 
-		alert(rezalt);
+		alert("результат: " + rezalt);
 }
