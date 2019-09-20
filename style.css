@@ -1,110 +1,173 @@
-#top {
-	padding: 0px
+nav {
+	width: 1200px;
+	margin: 0 auto;
 }
-#hr1 {
-	height: 3px;
-	border: none;
-	background-color: black;
-}
-#div2 {
-	background-color: green;
-}
-#rez {
-	color: red;
-}
-#div3 {
-	background-color: gray;
-}
-#img {
-	width: 1040px;
-}
-button {
-	background-color: red;
+nav:before {
+	content: "";
+	display: block;
 	height: 50px;
-	width: 120px;
-}
-#baton {
-	background-color: green;
-	color: white;
-	border-radius:10px;
-}
-.bo {
-	background-image: url(backgrand2.jpg);
-	border-radius:40px;
-	color: white;
-	height: 50px;
-	width: 120px;
-}
-* { margin: 0;
-padding: 0;
-}
-#marg {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-#nma {
-	margin-left:10px;
-	margin-right: 10px;
-}
-#div3 {
-	margin-top: 0px;
-}
-#kn {
-	position: relative;text-align: center;
-}
-#cen {
-	position: relative;text-align: center;
-}
-#h2 {
-	background: #ff66ff;
-}
-#slider {
-	width: 384px;
-	height: 128px;
-	border: 5px solid red;
-	margin: 50px auto;
-	overflow: hidden;
-}
-#polosa {
-	width: 896px;
-	position: relative;
+	width: 100%;
+	background:#00BFFF;
+	position: absolute;
 	left: 0;
-	transition: all ease 1s;
-
+	z-index: -1;
 }
-#polosa img {
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+}
+ul li {
 	float: left;
 }
-#polosa:after {
-	content: '';
-	display: block;
-	clear: both;
+ul li a {
+color: #fff;
+height: 50px;	
+padding: 0 70px;
+display: block;
+line-height: 50px;
+text-transform: uppercase;
+text-decoration: none;
 }
-#slider-left {
-	border-radius: 200000px;
-	color: white;
+ul li a:hover {
+	background: #0080FF;
 }
-#bce {
+#buttons {
 	position: relative;text-align: center;
 }
-#slider-right {
-	border-radius: 200000px;
+#ssilkes {
+	position: relative;text-align: center;
+}
+#DevAid {
+	background: #00BFFF;
+}
+* {
+	margin: 0;
+}
+#baton1 {
+	background: #FF8000;
 	color: white;
 	height: 50px;
-	width: 120px;
-}
-#obut {
-	background-color: green;
-	color: white;
-	height: 40px;
 	width: 100px;
-	border-radius: 200000px;
+	border: none;
+	border-radius: 10px;
 }
-#age {
+#baton2 {
+	background: #2E2E2E;
+	color: white;
+	height: 50px;
+	width: 200px;
+	border: none;
+	border-radius: 10px;
+}
+#ssilki2 {
+	position: relative;text-align: center;
+	background: #086A87;
+	padding: 20px;
+}
+#baton3 {
+	background: #00BFFF;
+	padding: 5px;
+	width: 100px;
+}
+#baton4 {
+	background: #00BFFF;
+	padding: 5px;
+	width: 100px;
+}
+#baton5 {
+	background: #00BFFF;
+	padding: 5px;
+	width: 100px;
+}
+#whatis {
+	color: #086A87;
+}
+#ggwp1 {
+	display: flex;
+	color: blue
+}
+#galk {
+	background: #00BFFF;
+}
+#getcenter {
+	position: relative;text-align: center;
+	color: navy;
+}
+#getcenter2 {
+	position: relative;text-align: center;
+	color: #00FFFF;
+}
+#htmljpg {
 	position: relative;text-align: center;
 }
-#samsite {
-	background-image: url(backgrand2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+#getstarted {
+	margin: 0 500px;
+	border: 0px solid white;
+	background : #D8D8D8;
+}
+#batongithub {
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 200px;
+	border: none;
+	border-radius: 10px;
+}
+#batongit {
+	position: relative;text-align: center;
+}
+#license {
+	position: relative;text-align: center;
+		margin: 0 500px;
+	border: 0px solid white;
+	background : #F2F2F2;
+}
+#butdon {
+	position: relative;text-align: center;
+}
+#donatik {
+	border: none;
+	border-radius: 2000px;
+	background: #FF8000;
+	color: #0B2161;
+	height: 50px;
+	width: 140px;
+}
+#getcenter3 {
+	position: relative;text-align: center;
+	color: #0B3861;
+}
+#contact {
+	background: #00BFFF;
+} 
+#contactimg {
+	position: relative;text-align: center;
+}
+#conactinf {
+	position: relative;text-align: center;
+		margin: 0 500px;
+	border: 0px solid white;
+	border-radius: 150px;
+	background : navy;
+	color: white;
+}
+#getcenter4 {
+	color: white;
+}
+#VK {
+	height: 50px;
+	border-radius: 2000px;
+	width: 80px;
+	color: black;
+}
+#VK2 {
+	height: 50px;
+	border-radius: 2000px;
+	width: 120px;
+	color: black;
+	background: #0080FF;
+	border:none;
+	text-decoration: none;
 }
