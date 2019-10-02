@@ -1,5 +1,8 @@
 * {
 	margin: 0;
+	min-height: 50%
+	min-width: 20%
+
 }
 body {
 	background: linear-gradient(to right, #00FFFF, #FE2EF7);
@@ -50,7 +53,9 @@ ul li {
 	top: 14%;
 	font-family: sans-serif;
 	font-size: 30px;
+	min-width: 50%
 	width: 100%
+
 }
 #button_get_boost {
 	border-radius: 20px;
@@ -59,11 +64,10 @@ ul li {
 	height: 50%;
 	width: 30%;
 	position: relative;
-	top: 10%
 }
 #button_boost {
 	position: relative;text-align: center;
-	top: 40%;
+	top: 25%;
 }
 #logo {
 	position: absolute;
@@ -184,4 +188,7 @@ ul li {
 }
 #big_button:hover {
 	color: red;
+}
+body {
+overflow-y:scroll;
 }
