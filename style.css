@@ -58,6 +58,8 @@ ul li {
 	background: linear-gradient(to right, #0000FF, #FF0040);
 	height: 50%;
 	width: 30%;
+	position: relative;
+	top: 10%
 }
 #button_boost {
 	position: relative;text-align: center;
@@ -131,7 +133,7 @@ ul li {
 	border: 5px solid black;
 	border-radius: 10px;
 	overflow: hidden;
-	margin: 0 25%;
+	margin: 0 15%;
 }
 #li_serv {
 	position: relative;
@@ -167,7 +169,6 @@ ul li {
 	border: 5px solid black;
 	margin: 0 30%;
 	border-radius: 20px;
-	width: 100%
 }
 #buy_contact {
 	text-decoration: none;
