@@ -22,12 +22,8 @@ ul li {
 	display: flex;
 	height: 65px;
 }
-#header ul li a:hover {
-	background-color: orange;
-	border-radius: 20px;
-}
 #header a:hover {
-	color: black;
+	color: orange;
 }
 .li_without_list_style {
 	list-style-type: none;
@@ -37,7 +33,7 @@ ul li {
 	left: 65%;
 }
 .bg_top_menu {
-	background: linear-gradient(to right, #e91e63, #3f51b5);
+	background: linear-gradient(to top, #848484, #151515);
 }
 #Start_about {
 	position: relative;text-align: center;
@@ -51,20 +47,24 @@ ul li {
 	height: 950px;
 	width: 100%;
 }
+#JustBoostMe {
+	font-family: sans-serif;
+	color: black;
+}
 #p1 {
 	display: block;
 	position: relative;text-align: center;
 	color: white;
 	top: 14%;
 	font-family: sans-serif;
-	font-size: 25px;
+	font-size: 40px;
 	min-width: 50%
 	width: 100%
 }
 #button_get_boost {
 	border-radius: 20px;
 	color: white;
-	background: linear-gradient(to right, #0000FF, #FF0040);
+	background: linear-gradient(to right, #424242, #424242);
 	height: 50%;
 	width: 30%;
 	position: relative;
@@ -82,7 +82,6 @@ ul li {
 	height: 65px;
 	width: 100%;
 	position: fixed;
-	border: 1px solid black;
 	overflow: hidden;
 	z-index: 1;
 }
@@ -95,16 +94,17 @@ ul li {
 	width: 100%
 }
 #about_us {
-	background: linear-gradient(to right, #00FFFF, #FE2EF7);
+	background: linear-gradient(to right, #000000, #2E2E2E)
 }
 #p_about_us {
+	color: white;
 	font-family: sans-serif;
 	text-align: center;
 	font-size: 20px;
 	width: 100%;
 }
 .About_us_buttons {
-	background: linear-gradient(to right, #0000FF, #FF0040);
+	background: linear-gradient(to right, #424242, #424242);
 	border: none;
 	border-radius: 17px;
 	height: 50px;
@@ -129,9 +129,10 @@ ul li {
 	width: 100%
 }
 #Otzivi {
-	background: linear-gradient(to right, #00FFFF, #FE2EF7);
+	background: linear-gradient(to right, #000000, #2E2E2E)
 }
 #p_in_otz {
+	color: white;
 	text-align: center;
 	font-family: sans-serif;
 	position: relative;
@@ -139,9 +140,9 @@ ul li {
 	width: 100%
 }
 #Services {
-	background: linear-gradient(to right, #2EFE2E, #FF8000);
+	background: linear-gradient(to top, #2E2E2E, #848484);
 	border: 5px solid black;
-	border-radius: 10px;
+	border-radius: 50px;
 	overflow: hidden;
 	margin: 0 15%;
 }
@@ -165,6 +166,7 @@ ul li {
 	width: 100%
 }
 #buy_serv {
+	color: white;
 	position: relative;
 	text-align: center;
 	font-size: 25px;
@@ -173,14 +175,14 @@ ul li {
 #seller {
 	font-family: sans-serif;
 	font-size: 50px;
-	background: linear-gradient(to right, #0000FF, #FF0040);
+	background: linear-gradient(to right, #424242, #424242);
 	position: relative;
 	text-align: center;
-	border: 5px solid black;
 	margin: 0 30%;
 	border-radius: 20px;
 }
 #buy_contact {
+	background: linear-gradient(to right, #424242, #424242);
 	text-decoration: none;
 	color: white;
 }
@@ -209,16 +211,21 @@ overflow-y:scroll;
 #seller_2 {
 	font-family: sans-serif;
 	font-size: 50px;
-	background: linear-gradient(to right, #0000FF, #FF0040);
+	background: linear-gradient(to right, #424242, #424242);
 	position: relative;
 	text-align: center;
-	border: 5px solid black;
 	margin: 0 30%;
 	border-radius: 20px;
 	margin-bottom: 5%;
 }
 footer {
-	background: linear-gradient(to right, #e91e63, #3f51b5);
+	background: linear-gradient(to bottom, #848484, #151515);
 	padding: 15px;
 	font-size: 20px;
+}
+body {
+	background: linear-gradient(to right, #000000, #2E2E2E)
+}
+hr {
+	color: black;
 }
