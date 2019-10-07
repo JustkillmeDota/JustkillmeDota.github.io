@@ -30,7 +30,7 @@ ul li {
 }
 #topmenu {
 	position: absolute;
-	left: 65%;
+	left: 55%;
 }
 .bg_top_menu {
 	background: linear-gradient(to top, #848484, #151515);
@@ -74,7 +74,7 @@ ul li {
 }
 #logo {
 	position: absolute;
-	right: 200%;
+	right: 170%;
 	padding: 15px;
 }
 #main_menu {
@@ -83,6 +83,9 @@ ul li {
 	position: fixed;
 	overflow: hidden;
 	z-index: 1;
+}
+#float {
+	display: inline;
 }
 #h2 {
 	margin-bottom: 50px;
